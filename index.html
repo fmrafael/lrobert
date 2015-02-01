@@ -1,36 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Plataforma de Treinamento Corporativo EAD Mendl" content="">
-    <meta name="Mendl" content="Plataforma de Treinamento Corporativo EAD Mendl">
-
-    <title>Mendl Plataforma de Treinamento EAD</title>
-
+    <meta name="Plataforma de Treinamento Corporativo EAD Mendl" content="Sistema de Gestão de Treinamento Corporativo EAD Mendl">
+    <title>Mendl Plataforma para Sistema de Gestão de Treinamento EAD</title>
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:800,400,600' rel='stylesheet' type='text/css'>
     <!-- Custom CSS -->
-    <link href="css/one-page-wonder.css" rel="stylesheet">
-  <link href="css/scrolling-nav.css" rel="stylesheet">
-
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link href="/css/one-page-wonder.css" rel="stylesheet">    
 </head>
-
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -38,28 +21,32 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
                 </button>
-                
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                       <a class="btn btn-default btn-lg" href="/mendl/login/index.php" role="button">Acesso a Mendl</a> 
+                       <a class="btn btn-default btn-lg" href="/mendl/login/index.php" role="button"><i class="fa fa-star"></i> Acesso a Mendl</a> 
                     </li>
-		<li>
-		<a class="page-scroll" href="#about">Saiba Mais</a>
-		</li>	
-
-                  
-                </ul>
+		
+		 <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PRODUTOS<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#section1" >Plataforma de E-learning Mendl Empresas (LMS)</a></li>
+            <li class="divider"></li>
+            <li><a href="#section2">Criação de Cursos Profissionais EAD</a></li>
+            <li class="divider"></li>
+            <li><a href="#section3">Mendl Starter Professor</a></li>
+          </ul>
+        </li>
+                    <li><a href="/precos">PREÇOS</a></li>
+	</ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
 
     <!-- Full Width Image Header -->
@@ -67,72 +54,94 @@
         <div class="headline">
             <div class="container">
                 <h1>Mendl</h1>
-                <h2>Plataforma de Treinamento EAD</h2>
+                <h2>Plataforma para Treinamento de E-learning</h2>           
             </div>
         </div>
     </header>
-
     <!-- Page Content -->
-    <div class="container" id="about">
-
+    <div class="container" id="section1">
         <hr class="featurette-divider">
-
-        <!-- First Featurette -->
+        <!-- Plataforma de Treinamento EAD -->
         <div class="featurette">
-            <img class="featurette-image img-circle img-responsive pull-right" src="/images/section01.svg">
-            <h2 class="featurette-heading">Mendl Pro, Plataforma de Treinamento EAD
-                <span class="text-muted">Customizada Para Sua Empresa</span>
+            <img class="featurette-image img-circle img-responsive pull-right" src="/images/section01.png">
+            <h2 class="featurette-heading">Mendl Empresas, Sistema de Gestão de Treinamento 
+                <span class="text-muted">Customizado Para seu Negócio</span>
             </h2>
-            <p class="lead">Implantamos um ambiente online padronizado para criação e compartilhamento de cursos e treinamentos voltados ao seu negócio, uma verdadeira academia de ensino a distância, customizada com sua marca e identidade visual. A Plataforma é totalmente escalável, o que significa que você só paga pelo que utilizar. Receba uma proposta, envie um email para mendl@mendl.com</p>
+            <p class="lead">Tenha redução de custos com viagens e com maior padronização de processos através do sistema Mendl de gestão de treinamento corporativo. Crie e compartilhe cursos e treinamentos com seus colaboradores.<a href="/mendl/login/index.php" role="link"> Cadastre-se grátis.</a> Para customização, domínio exclusivo e acesso ilimitado, <a href="/precos">consulte nosso pacote especial para empresas, Mendl Empresas.</a></p>
         </div>
-
-        <hr class="featurette-divider">
-
+        <hr class="featurette-divider" id="section2">
         <!-- Second Featurette -->
-        <div class="featurette" id="services">
+        <div class="featurette" >
             <img class="featurette-image img-circle img-responsive pull-left" src="/images/section02.png">
             <h2 class="featurette-heading">Desenvolvimento de Cursos de Alto Impacto
                 <span class="text-muted">Para Reter Conceitos e Gerar Valor.</span>
             </h2>
-            <p class="lead">Utilizamos as melhores ferramentas multimídia para a criação de cursos profissionais, que sejam capazes de interagir com a audiência e que garantam a retenção do conhecimento. Receba uma proposta, envie um email para mendl@mendl.com</p>
+            <p class="lead">Utilizamos as melhores ferramentas multimídia para a criação de cursos profissionais, capazes de interagir com a sua audiência, garantir a retenção do conhecimento e padronizar processos com qualidade. Divulgamos seu curso ao seu time através da sua plataforma Mendl Empresas ou em seu perfil Professor Mendl e monitoramos o percentual de engajamento e retenção do aprendizado.<a href="/precos"> Consulte nossos preços e saiba mais.</a></p>
         </div>
-
-        <hr class="featurette-divider">
-
+        <hr class="featurette-divider" id="section3">
         <!-- Third Featurette -->
-        <div class="featurette" id="contact">
+        <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-right" src="/images/section03.png">
-            <h2 class="featurette-heading">Seja um Professor Afiliado a Mendl e
-                <span class="text-muted">Crie e Monetize seus Próprios Cursos EAD.</span>
+            <h2 class="featurette-heading">Seja um Professor Afiliado a Mendl.
+                <span class="text-muted">Crie e Monetize seus Próprios Cursos de Ensino à Distância.</span>
             </h2>
-            <p class="lead">Comece agora mesmo a criar e compartilhar seus cursos. A Mendl permite que você se conecte e troque informações com a sua audiência. Os primeiros 45 dias são inteiramente gratuitos. Após esse período, você tem recursos ilimitados por R$ 39,90 mensais. Afilie-se agora, basta enviar email para professor@mendl.com e solicitar seu cadastro na Mendl.</p>
+            <p class="lead">Comece agora mesmo a criar e compartilhar seus cursos. Na plataforma de treinamento Mendl você se conecta, troca informações com seus alunos e ainda pode vender seus cursos. Os primeiros 45 dias são inteiramente gratuitos. <a href="/precos">Saiba mais e solicite seu perfil no plano Mendl Starter Professor.</a></p>
         </div>
-
+</div>
         <hr class="featurette-divider">
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Mendl 2014</p>
-<p> oitudobem@mendl.com Serviço de Atendimento ao Cliente</p>
+      <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-6">
+                        <h3>CONTATO</h3>
+                        <p class="lead">mendl@mendl.com.br</p>
+                        <i class="fa fa-linkedin-square fa-2x"></i>
+                        <i class="fa fa-facebook-square fa-2x"></i>
+                        
+                    </div>
+                    <div class="footer-col col-md-6">
+                        <h3>Sobre a Mendl</h3>
+                        <p class="lead">A missão da Mendl é gerar valor pela gestão de treinamento (LMS), para reduzir custos e integrar processos. <a href="http://mendl.com.br/mendl/login/index.php">Cadastre-se grátis</a>.</p>
+                    </div>
                 </div>
             </div>
-        </footer>
-
-    </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Mendl 2015
+                    </div>
+                </div>
+            </div>
+        </div>  
+ <ul class="nav pull-right scroll-down">
+  <li><a href="#"><i class="fa fa-chevron-down fa-2x"></i></a></li>
+</ul>
+    </footer>    
     <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
- <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-58803212-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
-
 </html>
